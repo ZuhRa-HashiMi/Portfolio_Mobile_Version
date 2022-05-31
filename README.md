@@ -4,7 +4,7 @@
 
 > This is the mobile version of a personal portfolio page that shows of my accomplishments as a software developer.
 
-![screenshot](./assets/screenshot.png)
+![screenshot](assets/screenshot.PNG)
 
 ## Built With
 
