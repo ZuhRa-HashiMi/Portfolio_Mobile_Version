@@ -84,6 +84,7 @@ body {
     letter-spacing: 0.37px;
     color: #ff6b00;
     text-decoration: none;
+    padding: 0px;
   }
   
   .job-title {
@@ -93,6 +94,7 @@ body {
     font-size: 20px;
     margin: 1px;
     color: #fff5e1;
+    padding: 0px;
   }
   
   .job-description {
@@ -102,6 +104,7 @@ body {
     font-size: 17px;
     line-height: 24px;
     color: white;
+    padding: 0px;
   }
   
   .links * {
@@ -114,10 +117,7 @@ body {
     position: absolute;
     left: 0;
     right: 10px;
-    background-image: url(assets/Illustration-header.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 200px;
+    
     height: 250px;
     width: 400px;
   }
