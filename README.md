@@ -9,7 +9,6 @@
 ## Built With
 
 - HTML and CSS
-- Bootstrap
 
 ## Getting Started
 
@@ -24,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author**
+👤 **Zuhra Hashimi**
 
 - GitHub: [@ZuhRa-HashiMi](https://github.com/ZuhRa-HashiMi)
 - Twitter: [@ZuhraHashimi4](https://twitter.com/ZuhraHashimi4)
