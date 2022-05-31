@@ -1,129 +1,126 @@
 body {
-    background: #1c1a19;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  a {
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    text-decoration: none;
-  }
-  
-  li {
-    list-style: none;
-  }
-  .container {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-  .hamburger {
-    padding-right: 30px;
-    position: fixed;
-    top: 20px;
-    left: 300px;
-    width: 100px;
-  }
-  
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background-color: white;
-  }
-  
-  .topnav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
-    position: fixed;
-    background: #3c3a39;
-    width: 400px;
-    height: 60px;
-    margin-right: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
-  header a {
-    position: relative;
-    display: flex;
-    color: white;
-    padding: 0;
-    text-decoration: none;
-    font-size: 17px;
-    margin-top: 14px;
-    width: 200px;
-    height: 100px;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 9px;
-   
-  }
-  
-  .main-content {
-    padding: 50px 20px 1px 15px;
-  }
-  
-  .headline {
-    font-style: normal;
-    font-family: 'Crete Round', sans-serif;
-    font-weight: 400;
-    font-size: 50px;
-    margin-top: 150px;
-    margin-bottom: 10px;
-    line-height: 64px;
-    letter-spacing: 0.37px;
-    color: #ff6b00;
-    text-decoration: none;
-    padding: 0px;
-  }
-  
-  .job-title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    margin: 1px;
-    color: #fff5e1;
-    padding: 0px;
-  }
-  
-  .job-description {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 24px;
-    color: white;
-    padding: 0px;
-  }
-  
-  .links * {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .social_media {
-    display: flex;
-    position: absolute;
-    left: 0;
-    right: 10px;
-    background-image: url(assets/Illustration-header.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 200px;
-    
-    height: 250px;
-    width: 400px;
-  }
-  
+  background: #1c1a19;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.hamburger {
+  padding-right: 30px;
+  position: fixed;
+  top: 20px;
+  left: 300px;
+  width: 100px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  background: #3c3a39;
+  width: 400px;
+  height: 60px;
+  margin-right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header a {
+  position: relative;
+  display: flex;
+  color: white;
+  padding: 0;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 14px;
+  width: 200px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+}
+
+.main-content {
+  padding: 50px 20px 1px 15px;
+}
+
+.headline {
+  font-style: normal;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  text-decoration: none;
+  padding: 0;
+}
+
+.job-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 1px;
+  color: #fff5e1;
+  padding: 0;
+}
+
+.job-description {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  padding: 0;
+}
+
+.links * {
+  display: flex;
+  gap: 20px;
+}
+
+.social_media {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 10px;
+  background-image: url(assets/Illustration-header.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 200px;
+  height: 250px;
+  width: 400px;
+}
