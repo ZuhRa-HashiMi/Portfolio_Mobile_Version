@@ -67,6 +67,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 9px;
+   
   }
   
   .main-content {
@@ -117,6 +118,10 @@ body {
     position: absolute;
     left: 0;
     right: 10px;
+    background-image: url(assets/Illustration-header.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
     
     height: 250px;
     width: 400px;
