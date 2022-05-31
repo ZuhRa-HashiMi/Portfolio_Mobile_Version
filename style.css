@@ -15,11 +15,6 @@ li {
   list-style: none;
 }
 
-.container {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
 .hamburger {
   padding-right: 30px;
   position: fixed;
@@ -66,6 +61,8 @@ header a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
   gap: 9px;
 }
 
