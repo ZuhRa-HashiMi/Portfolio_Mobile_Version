@@ -116,6 +116,9 @@ header a {
 .links * {
   display: flex;
   gap: 20px;
+  width: 24px;
+  height: 50px;
+  
 }
 
 .social_media {
@@ -123,10 +126,10 @@ header a {
   position: absolute;
   left: 0;
   right: 0;
-  background-image: url(assets/Illustration-header.png);
+  background-image: url(assets/Illustration.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 200px;
-  height: 250px;
-  width: 400px;
+  height: 260px;
+  width: 325px;
 }
