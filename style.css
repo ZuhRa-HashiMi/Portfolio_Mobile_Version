@@ -10,7 +10,7 @@ a {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  /*padding-bottom: 150px;*/
+  padding-bottom: 200px;
 }
 
 li {
@@ -124,8 +124,10 @@ header a {
 .social_media {
   display: flex;
   position: absolute;
-  left: 0;
-  right: 10px;
+  left:0;
+  right:0;
+  
+
   background-image: url(assets/Illustration-header.png);
   background-repeat: no-repeat;
   background-position: right;
