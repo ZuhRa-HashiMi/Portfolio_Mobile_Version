@@ -1,14 +1,16 @@
 body {
-  background: #1c1a19;
+  background: #000000;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 a {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  /*padding-bottom: 150px;*/
 }
 
 li {
@@ -17,14 +19,14 @@ li {
 
 .hamburger {
   padding-right: 30px;
-  position: fixed;
+  position:fixed;
   top: 20px;
   left: 300px;
   width: 100px;
 }
 
 .bar {
-  display: block;
+  display:block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
@@ -74,7 +76,7 @@ header a {
   font-style: normal;
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 56px;
   margin-top: 150px;
   margin-bottom: 10px;
   line-height: 64px;
@@ -82,26 +84,36 @@ header a {
   color: #ff6b00;
   text-decoration: none;
   padding: 0;
+  flex: none;
+  flex-grow: 0;
+  order:0;
 }
 
 .job-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
   margin: 1px;
   color: #fff5e1;
   padding: 0;
+  display: flex;
+  align-items:space-around;
+  flex:1;
+  flex-grow:0;
+  order:0;
 }
 
 .job-description {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   color: white;
   padding: 0;
+  
 }
 
 .links * {
