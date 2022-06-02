@@ -100,7 +100,9 @@ li {
 }
 
 .links {
-  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   padding: 8px;
   width: 100%;
   height: 300px;
