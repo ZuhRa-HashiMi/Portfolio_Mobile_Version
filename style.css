@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background: #000;
   width: 100%;
@@ -23,7 +24,7 @@ li {
   align-items: center;
   font-family: 'Roboto', sans-serif;
   position: fixed;
-  top:0 ;
+  top: 0;
   background: #3c3a39;
   height: 60px;
   padding-left: 20px;
@@ -39,7 +40,7 @@ li {
   background-color: white;
 }
 
-.logo{
+.logo {
   color: white;
   font-size: 17px;
   padding: 0 20px;
