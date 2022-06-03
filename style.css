@@ -519,5 +519,16 @@ button {
 
 } 
 
+.frameworks{
+  font-family: Inter;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  list-style-image: url("assets/Rectangle2.png");
+  list-style-position: inside;
+}
+
   
 
