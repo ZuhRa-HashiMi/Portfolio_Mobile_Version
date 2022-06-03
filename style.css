@@ -503,6 +503,25 @@ button {
 .skill-set li {
   padding: 10px 0;
 }
+.languages {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* list-style-image: url('./image/Rectangle_bullet.png');
+  list-style-position: inside; */
+}
+
+.frameworks {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* list-style-image: url('./image/Rectangle_45degrees_bullet.png');
+  list-style-position: inside; */
+}
 
 
   
