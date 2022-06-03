@@ -531,6 +531,14 @@ button {
   text-align: center;
 }
 
+.vector{
+  display: flex;
+  align-self: center;
+  margin: 0 10px 0 24px;
+  width: 18px;
+  height: 18px;
+}
+
 .frameworks{
   font-family: 'Inter';
   font-style: normal;
