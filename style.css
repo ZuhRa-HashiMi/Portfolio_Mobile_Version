@@ -176,3 +176,18 @@ li {
   margin-bottom: 12px;
 }
 
+.recent-works li{
+  border: 1px solid #8993A4;
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+
+}
+
