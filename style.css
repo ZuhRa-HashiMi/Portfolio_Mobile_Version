@@ -539,6 +539,16 @@ button {
   height: 18px;
 }
 
+.language-name{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
 .frameworks{
   font-family: 'Inter';
   font-style: normal;
