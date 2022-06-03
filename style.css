@@ -506,29 +506,63 @@ button {
 }
 
 .language{
-  font-family: 'InaiMathi';
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 137px;
+  /* font-family: 'InaiMathi';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  list-style-image: url('assets/Rectangle.png');
-  list-style-position: inside;
-  color: #FFFFFF;
+  color: #FFFFFF; */
 
 } 
+.lang-2{
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
 
 .frameworks{
-  font-family: Inter;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  list-style-image: url("assets/Rectangle2.png");
-  list-style-position: inside;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
 }
+
+/* .skills{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+} */
+/* 
+.skill-item {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+} */
+
 
   
 
