@@ -217,3 +217,20 @@ li {
   box-sizing: border-box;
 }
 
+button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+}
+
+form button{
+  
+}
+
