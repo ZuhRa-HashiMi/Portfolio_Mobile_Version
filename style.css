@@ -480,14 +480,13 @@ button {
 
 }
 
-.hr{
-  padding-top: 142px;
+.about-text > hr{
+  padding-top: 100px;
   border-top: none;
   border-left: none;
   border-right: none;
   border-color: white;
 }
-
 .about-me .skill-set{
   padding-top: 100px;
   color: white;
@@ -500,59 +499,6 @@ button {
   flex-direction: column;
   padding: 0;
 }
-
-.skill-set li {
-  padding: 10px 0;
-}
-
-.language{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 137px;
-  font-family: 'InaiMathi';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #FFFFFF; 
-
-} 
-
-
-
-.frameworks{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-}
-
-.skills{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-} 
-/* 
-.skill-item {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 43px;
-  list-style: none;
-} */
 
 
   
