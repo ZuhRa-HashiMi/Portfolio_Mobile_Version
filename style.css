@@ -150,10 +150,19 @@ li {
   width: 100%;
 }
 .recent-works h4{
-  font-family: Crete Round;
+  text-align: left;
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
+  color: #091e42;
+}
+.recent-works p{
+  font-family: Inter;
+  font-style:normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
