@@ -186,7 +186,6 @@ li {
   width: 49px;
   height: 40px;
   border: 1px solid #8993A4;
-  list-style: none;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -243,7 +242,6 @@ li {
   width: 61px;
   height: 40px;
   border: 1px solid #8993A4;
-  list-style: none;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -356,43 +354,63 @@ button:active {
 .work-card .card-content > ul{
   display: flex;
 }
+
 .card-content .html{
   display: flex;
   flex-direction: row;
   align-items: center;
-  order: 0;
-  padding: 10px 12px;
   width: 56px;
   height: 40px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
   color: white;
   background-color: rgba(255, 255, 255, 0.24);
-  border: none;
 }
 
 .card-content .Boot{
   display: flex;
   flex-direction: row;
   align-items: center;
-  order: 0;
-  padding: 10px 12px;
-  width: 56px;
+  width: 95px;
   height: 40px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
   color: white;
   background-color: rgba(255, 255, 255, 0.24);
-  border: none;
 }
 
 .card-content .Ruby{
   display: flex;
   flex-direction: row;
   align-items: center;
-  order: 0;
-  padding: 10px 12px;
-  width: 56px;
+  width: 61px;
   height: 40px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
   color: white;
   background-color: rgba(255, 255, 255, 0.24);
-  border: none;
+
 }
 
 
