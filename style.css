@@ -439,7 +439,35 @@ button {
   background-position-x: right;
   background-position-y: 280px;
 }
+.about-text > h2{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ff6b00;
+  letter-spacing: 0.37px;
+}
 
+.hr{
+  padding-top: 142px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+}
+
+.about-text >p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+  margin: 24px 0;
+  width: 327px;
+  height: 148px; 
+}
 
   
 
