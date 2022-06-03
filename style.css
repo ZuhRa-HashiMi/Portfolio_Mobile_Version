@@ -531,7 +531,16 @@ button {
   line-height: 44px;
   /* list-style-image: url('./image/circle-bullet.png');
   list-style-position: inside;
-} */
+ */
+}
+.skill-item {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+}
 
   
 
