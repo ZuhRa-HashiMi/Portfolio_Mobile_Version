@@ -285,5 +285,12 @@ button:active {
   border: 1px solid #f55b00;
   color: #f4f1f0;
 }
+
+.recent-works button {
+  width: 124px;
+  height: 48px;
+  float: left;
+}
+
   
 
