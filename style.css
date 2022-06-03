@@ -248,5 +248,22 @@ button:enabled {
   color: #fff;
   background-color: #f55800;
 }
+
+button:hover{
+  /* width: 69px;
+  height: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 17px;
+  line-height: 24px; */
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  border: 1px solid #f55b00;
+  background-color: #fff5e1;
+  color: #F55800;
+}
   
 
