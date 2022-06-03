@@ -122,3 +122,38 @@ li {
   justify-content: space-between;
   height: 300px;
 }
+
+.recent-works{
+  color: #1c1a19;
+  display: grid;
+  justify-content: center;
+  padding: 120px 24px 120px 24px;
+  grid-template-columns: 327px;
+}
+
+.recent-works h3{
+  text-align: center;
+  border-bottom: #000 3px;
+  font-family: Crete Round;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 52px;
+  height: 83px;
+  margin-bottom: 20px;
+}
+
+.recent-works img{
+  margin-top: 80px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.recent-works h4{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
