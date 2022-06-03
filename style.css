@@ -265,5 +265,25 @@ button:hover{
   background-color: #fff5e1;
   color: #F55800;
 }
+
+button:active {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 93px;
+  height: 48px;
+  left: 407px;
+  top: calc(50% - 48px/2 + 46.5px);
+  background: #E05304; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e05304;
+  border: 1px solid #f55b00;
+  color: #f4f1f0;
+}
   
 
