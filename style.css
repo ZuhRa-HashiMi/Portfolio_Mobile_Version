@@ -175,8 +175,16 @@ li {
   height: 40px;
   margin-bottom: 12px;
 }
+li {
+  float: left;
+}
 
-.recent-works li{
+.recent-works li:not(.boots){
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 49px;
+  height: 40px;
   border: 1px solid #8993A4;
   list-style: none;
   font-family: Inter, sans-serif;
@@ -188,6 +196,24 @@ li {
   margin: 0 12px 0 0;
   padding: 10px 12px;
   box-sizing: border-box;
+}
 
+.boots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
 }
 
