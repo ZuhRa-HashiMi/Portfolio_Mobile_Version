@@ -230,7 +230,23 @@ button {
   border: none;
 }
 
-form button{
-  
+form button {
+  padding: 12px;
+  width: 130px;
+  height: 48px;
+  align-self: center;
 }
+
+button:enabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 124px;
+  padding: 12px;
+  gap: 10px;
+  height: 48px;
+  color: #fff;
+  background-color: #f55800;
+}
+  
 
