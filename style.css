@@ -547,7 +547,15 @@ button {
   text-align: center;
 }
 
-
+.language-list{
+  list-style-type: none;
+  margin: 0;
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
 
 .frameworks{
   font-family: 'Inter';
