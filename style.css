@@ -557,6 +557,14 @@ button {
   text-align: center;
 }
 
+.lang-list-cont{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+}
+
 .frameworks{
   font-family: 'Inter';
   font-style: normal;
