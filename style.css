@@ -504,42 +504,67 @@ button {
   padding: 10px 0;
 }
 .languages {
-  font-family: Inter, sans-serif;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: white;
+  font-family: 'InaiMathi';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  
   /* list-style-image: url('./image/Rectangle_bullet.png');
   list-style-position: inside; */
 }
 
 .frameworks {
-  font-family: Inter, sans-serif;
+  /* display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; */
+  color: white;
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  
   /* list-style-image: url('./image/Rectangle_45degrees_bullet.png');
   list-style-position: inside; */
 }
 
 .skills {
-  font-family: Inter, sans-serif;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  color: white;
+  font-family:'Inter';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  
   /* list-style-image: url('./image/circle-bullet.png');
   list-style-position: inside;
  */
 }
 .skill-item {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: row; */
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 43px;
   list-style: none;
+}
+.vector{
+  margin: 1px;
+  width: 18px;
+  height: 18px;
+  border-radius: 150px;
 }
 
   
