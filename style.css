@@ -523,6 +523,15 @@ button {
   list-style-position: inside; */
 }
 
+.skills {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* list-style-image: url('./image/circle-bullet.png');
+  list-style-position: inside;
+} */
 
   
 
