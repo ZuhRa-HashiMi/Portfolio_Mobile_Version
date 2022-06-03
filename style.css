@@ -179,7 +179,7 @@ li {
   float: left;
 }
 
-.recent-works li:not(.boots){
+.recent-works .css{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -198,11 +198,49 @@ li {
   box-sizing: border-box;
 }
 
-.boots {
+.recent-works .HTML {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 56px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+
+.recent-works .boots {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 95px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+
+.recent-works .ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 61px;
   height: 40px;
   border: 1px solid #8993A4;
   list-style: none;
@@ -303,7 +341,7 @@ button:active {
   height: 386px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
    rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder2.png);
-   padding: 0 16px;
+  padding: 0 16px;
   padding-top: 84px;
 }
 
@@ -315,6 +353,49 @@ button:active {
   line-height: 24px;
   color: white;
 }
+.work-card .card-content > ul{
+  display: flex;
+}
+.card-content .html{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  order: 0;
+  padding: 10px 12px;
+  width: 56px;
+  height: 40px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+}
+
+.card-content .Boot{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  order: 0;
+  padding: 10px 12px;
+  width: 56px;
+  height: 40px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+}
+
+.card-content .html{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  order: 0;
+  padding: 10px 12px;
+  width: 56px;
+  height: 40px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+}
+
+
 
   
 
