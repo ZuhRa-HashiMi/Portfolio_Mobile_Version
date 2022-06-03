@@ -5,9 +5,10 @@
 }
 
 body {
-  background: #000;
+  background: black;
   width: 100%;
   margin: 0 24px 0 0;
+  
 }
 
 a {
@@ -159,10 +160,19 @@ li {
   color: #091e42;
 }
 .recent-works p{
+  text-align: left;
   font-family: Inter;
   font-style:normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 12px;
+  color: #091e42;
+}
+
+.tech-used {
+  display: felx;
+  height: 40px;
+  margin-bottom: 12px;
 }
 
