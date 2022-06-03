@@ -126,6 +126,7 @@ li {
 
 .recent-works{
   color: #1c1a19;
+  background-color: white;
   display: grid;
   justify-content: center;
   padding: 120px 24px 120px 24px;
@@ -266,14 +267,14 @@ button {
   border: none;
 }
 
-form button {
+/* form button {
   padding: 12px;
   width: 130px;
   height: 48px;
   align-self: center;
-}
+} */
 
-button:enabled {
+button:enabled:not(.project-button){
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -285,7 +286,7 @@ button:enabled {
   background-color: #f55800;
 }
 
-button:hover{
+button:hover:not(.project-button){
   /* width: 69px;
   height: 24px;
   font-family: Inter;
@@ -302,7 +303,7 @@ button:hover{
   color: #F55800;
 }
 
-button:active {
+button:active:not(.project-button) {
   /* display: flex;
   flex-direction: row;
   align-items: center;
@@ -322,7 +323,7 @@ button:active {
   color: #f4f1f0;
 }
 
-.recent-works button {
+.recent-works button:not(.project-button){
   width: 124px;
   height: 48px;
   float: left;
@@ -412,6 +413,23 @@ button:active {
   background-color: rgba(255, 255, 255, 0.24);
 
 }
+
+button {
+  /* display: flex;
+  align-items: flex-end; */
+  text-align:center;
+  letter-spacing: 0.03em;
+  color: white;
+  width: 300px;
+  padding: 0;
+  background: #FF6B00;
+  height: 60pxpx;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px
+} 
 
 
 
