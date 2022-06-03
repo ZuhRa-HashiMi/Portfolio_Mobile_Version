@@ -305,7 +305,16 @@ button:active {
    rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder2.png);
    padding: 0 16px;
   padding-top: 84px;
-
 }
+
+.card-content > p{
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 24px;
+  color: white;
+}
+
   
 
