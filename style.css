@@ -152,7 +152,7 @@ li {
 
 .card-content > h4 {
   text-align: left;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -162,7 +162,7 @@ li {
 
 .recent-works h4:not(.title) {
   text-align: left;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -171,7 +171,7 @@ li {
 }
 
 .recent-works p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   text-align: left;
   font-style: normal;
   font-weight: 400;
@@ -410,7 +410,7 @@ button:active {
 }
 
 .about-text > h2 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -420,7 +420,7 @@ button:active {
 }
 
 .about-text > p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -464,7 +464,7 @@ button:active {
 }
 
 .languages {
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   color: white;
   font-style: normal;
@@ -474,7 +474,7 @@ button:active {
 }
 
 .frameworks {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
@@ -483,7 +483,7 @@ button:active {
 }
 
 .skills {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
