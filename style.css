@@ -254,7 +254,7 @@ li {
   box-sizing: border-box;
 }
 
-button:not(.project-butto){
+button/*:not(.project-butto)*/{
   display: flex;
   align-items: center;
   text-align: center;
@@ -274,7 +274,7 @@ form button{
   align-self: center;
 } 
 
-button:enabled:not(.project-button){
+button:enabled/*:not(.project-button)*/{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -286,7 +286,7 @@ button:enabled:not(.project-button){
   background-color: #f55800;
 }
 
-button:hover:not(.project-button){
+button:hover/*:not(.project-button)*/{
   /* width: 69px;
   height: 24px;
   font-family: Inter;
@@ -303,7 +303,7 @@ button:hover:not(.project-button){
   color: #F55800;
 }
 
-button:active:not(.project-button) {
+button:active/*:not(.project-button)*/{
   /* display: flex;
   flex-direction: row;
   align-items: center;
@@ -323,7 +323,7 @@ button:active:not(.project-button) {
   color: #f4f1f0;
 }
 
-.recent-works button:not(.project-button){
+.recent-works button/*:not(.project-button)*/{
   width: 124px;
   height: 48px;
   float: left;
@@ -424,7 +424,13 @@ button:active:not(.project-button) {
 
 }
 
-button {
+.recent-works button/*:not(.project-button)*/{
+  width: 124px;
+  height: 48px;
+  float: left;
+}
+
+/* button {
   display: flex;
   align-items: center;
   margin-top: 18px;
@@ -442,7 +448,7 @@ button {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px; 
-  color: #FFFFFF;
+  color: #FFFFFF; */
 
   }/* display: flex;
     flex-direction: row;
@@ -549,7 +555,7 @@ button {
   background-color: rgba(255, 255, 255, 0.24);
 
 }
-
+/* 
 button {
   display: flex;
   align-items: center;
@@ -571,7 +577,7 @@ button {
     line-height: 24px; 
     color: #FFFFFF;
 
-  }
+  } */
   
   
   /* display: flex;
@@ -583,7 +589,10 @@ button {
     background: #ff6b00;
     margin: 0;
     border: 0; */
+
+
  /* Third-Profesional-Art-Printing-Data */
+
  .cards-section {
   padding-top: 30px;
   display: grid;
@@ -971,139 +980,6 @@ button {
     background: #ff6b00;
     margin: 0;
     border: 0; */
-  /* sixth-Profesional-Art-Printing-Data */
-  .cards-section {
-    padding-top: 30px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: 1fr;
-  }
-  .card-content{
-    height: 386px;
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-     rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder2.png);
-    padding: 0 16px;
-    padding-top: 84px;
-  }
-  
-  .card-content > h4{
-    text-align: left;
-    font-family: Crete Round, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color:white;
-  }
-  
-  .card-content > p{
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400px;
-    line-height: 24px;
-    color: white;
-  }
-  .work-card .card-content > ul{
-    display: flex;
-  }
-  
-  .card-content .html{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 56px;
-    height: 40px;
-    border: 1px solid #8993A4;
-    font-family: Inter, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    font-style: normal;
-    margin: 0 12px 0 0;
-    padding: 10px 12px;
-    box-sizing: border-box;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.24);
-  }
-  
-  .card-content .Boot{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 95px;
-    height: 40px;
-    border: 1px solid #8993A4;
-    font-family: Inter, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    font-style: normal;
-    margin: 0 12px 0 0;
-    padding: 10px 12px;
-    box-sizing: border-box;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.24);
-  }
-  
-  .card-content .Ruby{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 61px;
-    height: 40px;
-    border: 1px solid #8993A4;
-    font-family: Inter, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    font-style: normal;
-    margin: 0 12px 0 0;
-    padding: 10px 12px;
-    box-sizing: border-box;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.24);
-  
-  }
-  
-  button {
-    display: flex;
-    align-items: center;
-   
-    margin-top: 18px;
-    width: 400px;
-    background: #FF6B00;
-    height: 48px;
-  }
-    .project-button{
-      display: flex;
-      justify-content: center;
-      width: 327px;
-      height: 48px;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 17px;
-      line-height: 24px; 
-      color: #FFFFFF;
-  
-    }
-    
-    
-    /* display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding: 12px;
-      width: 327px;
-      height: 48px;
-      background: #ff6b00;
-      margin: 0;
-      border: 0; */
-
-    
-    
-
 
 
 
