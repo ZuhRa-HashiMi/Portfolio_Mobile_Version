@@ -254,7 +254,7 @@ li {
   box-sizing: border-box;
 }
 
-button/*:not(.project-butto)*/{
+button{
   display: flex;
   align-items: center;
   text-align: center;
@@ -274,56 +274,24 @@ form button{
   align-self: center;
 } 
 
-button:enabled/*:not(.project-button)*/{
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 124px;
-  padding: 12px;
-  gap: 10px;
-  height: 48px; */
+button:enabled {
   color: #fff;
   background-color: #f55800;
 }
 
-button:hover/*:not(.project-button)*/{
-  /* width: 69px;
-  height: 24px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 700px;
-  font-size: 17px;
-  line-height: 24px; */
-  /* display: flex;
-  align-items: center;
-  text-align: justify;
-  letter-spacing: 0.03em; */
+button:hover {
   border: 1px solid #f55b00;
   background-color: #fff5e1;
   color: #F55800;
 }
 
-button:active/*:not(.project-button)*/{
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  position: absolute;
-  width: 93px;
-  height: 48px;
-  left: 407px;
-  top: calc(50% - 48px/2 + 46.5px);
-  background: #E05304; */
-  /* display: flex;
-  flex-direction: row;
-  align-items: center; */
+button:active {
   background-color: #e05304;
   border: 1px solid #f55b00;
   color: #f4f1f0;
 }
 
-.recent-works button/*:not(.project-button)*/{
+.recent-works button{
   width: 124px;
   height: 48px;
   float: left;
@@ -429,41 +397,11 @@ button:active/*:not(.project-button)*/{
   cursor: pointer;
 }
 
-.recent-works button/*:not(.project-button)*/{
+.recent-works button{
   width: 124px;
   height: 48px;
   float: left;
 }
-
-/* button {
-  display: flex;
-  align-items: center;
-  margin-top: 18px;
-  width: 400px;
-  background: #FF6B00;
-  height: 48px;
-}
-.project-button{
-  display: flex;
-  justify-content: center;
-  width: 327px;
-  height: 48px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px; 
-  color: #FFFFFF; */
-
-  }/* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 12px;
-    width: 327px;
-    height: 48px;
-    background: #ff6b00;
-    margin: 0;
-    border: 0; */
 
 .about-me{
   padding: 120px 24px;
@@ -526,55 +464,33 @@ button:active/*:not(.project-button)*/{
   padding: 10px 0;
 }
 .languages {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   color: white;
   font-family: 'InaiMathi';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  
-  /* list-style-image: url('./image/Rectangle_bullet.png');
-  list-style-position: inside; */
 }
 
 .frameworks {
-  /* display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center; */
   color: white;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  
-  /* list-style-image: url('./image/Rectangle_45degrees_bullet.png');
-  list-style-position: inside; */
+
 }
 
 .skills {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center; */
   color: white;
   font-family:'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  
-  /* list-style-image: url('./image/circle-bullet.png');
-  list-style-position: inside;
- */
 }
 .skill-item {
-  /* display: flex;
-  justify-content: center;
-  flex-direction: row; */
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -588,6 +504,4 @@ button:active/*:not(.project-button)*/{
   height: 18px;
   border-radius: 150px;
 }
-
-  
 
