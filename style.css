@@ -254,7 +254,7 @@ li {
   box-sizing: border-box;
 }
 
-button {
+button:not(.project-butto){
   display: flex;
   align-items: center;
   text-align: center;
@@ -267,7 +267,7 @@ button {
   border: none;
 }
 
-form button {
+form button{
   padding: 12px;
   width: 130px;
   height: 48px;
@@ -432,17 +432,17 @@ button {
   background: #FF6B00;
   height: 48px;
 }
-  .project-button{
-    display: flex;
-    justify-content: center;
-    width: 327px;
-    height: 48px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px; 
-    color: #FFFFFF;
+.project-button{
+  display: flex;
+  justify-content: center;
+  width: 327px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px; 
+  color: #FFFFFF;
 
   }/* display: flex;
     flex-direction: row;
