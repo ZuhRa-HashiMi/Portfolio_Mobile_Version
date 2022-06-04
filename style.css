@@ -135,9 +135,7 @@ li {
 .recent-works h3 {
   text-align: center;
   border-bottom: #000 3px;
-  font-family: 'Crete Round';
   font-size: 40px;
-  font-weight: 400;
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
@@ -151,6 +149,17 @@ li {
   width: 100%;
 }
 
+.card-content > h4 {
+  text-align: left;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+}
+
+
 .recent-works h4:not(.title) {
   text-align: left;
   font-family: Crete Round, sans-serif;
@@ -163,7 +172,6 @@ li {
 
 .recent-works p {
   text-align: left;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -173,7 +181,6 @@ li {
 }
 
 .tech-used {
-  /* display: felx; */
   height: 40px;
   margin-bottom: 12px;
 }
@@ -261,11 +268,10 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  font-family:'Inter, sans-serif';
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 17px;
-  line-height: 24px;
+  line-height:24px;
   border: none;
 }
 
@@ -309,16 +315,6 @@ button:active {
 }
 
 
-.card-content > h4 {
-  text-align: left;
-  font-family: Crete Round, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: white;
-}
-
 .card-content {
   height: 386px;
   background:
@@ -333,10 +329,9 @@ button:active {
 }
 
 .card-content > p {
-  font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 24px;
   color: white;
 }
@@ -417,7 +412,6 @@ button:active {
 }
 
 .about-text > h2 {
-  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -427,7 +421,6 @@ button:active {
 }
 
 .about-text > p {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -481,7 +474,6 @@ button:active {
 
 .frameworks {
   color: white;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -490,7 +482,6 @@ button:active {
 
 .skills {
   color: white;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -498,7 +489,6 @@ button:active {
 }
 
 .skill-item {
-  font-family:'Inter, sans-serif';
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
