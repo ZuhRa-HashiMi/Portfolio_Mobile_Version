@@ -16,6 +16,7 @@ a {
 
 li {
   list-style: none;
+  float: left;
 }
 
 .topnav {
@@ -159,7 +160,6 @@ li {
   color: white;
 }
 
-
 .recent-works h4:not(.title) {
   text-align: left;
   font-family: Crete Round, sans-serif;
@@ -183,10 +183,6 @@ li {
 .tech-used {
   height: 40px;
   margin-bottom: 12px;
-}
-
-li {
-  float: left;
 }
 
 .recent-works .css {
@@ -271,7 +267,7 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  line-height:24px;
+  line-height: 24px;
   border: none;
 }
 
@@ -313,7 +309,6 @@ button:active {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: 1fr;
 }
-
 
 .card-content {
   height: 386px;
@@ -465,7 +460,6 @@ button:active {
 
 .languages {
   color: white;
-  font-family: 'InaiMathi';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
