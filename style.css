@@ -260,6 +260,7 @@ li {
 }
 
 button {
+  padding: 12px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -459,6 +460,8 @@ button:active {
 }
 
 .languages {
+  font-family: 'InaiMathi';
+  font-style: normal;
   color: white;
   font-style: normal;
   font-weight: 700;
@@ -467,6 +470,7 @@ button:active {
 }
 
 .frameworks {
+  font-family: 'Inter';
   color: white;
   font-style: normal;
   font-weight: 700;
@@ -475,6 +479,7 @@ button:active {
 }
 
 .skills {
+  font-family: 'Inter';
   color: white;
   font-style: normal;
   font-weight: 700;
