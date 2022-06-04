@@ -263,6 +263,7 @@ li {
 button {
   padding: 12px;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
