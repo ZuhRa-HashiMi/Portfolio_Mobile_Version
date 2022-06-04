@@ -269,19 +269,19 @@ button/*:not(.project-butto)*/{
 
 form button{
   padding: 12px;
-  width: 130px;
+  width: 131px;
   height: 48px;
   align-self: center;
 } 
 
 button:enabled/*:not(.project-button)*/{
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: center;
   width: 124px;
   padding: 12px;
   gap: 10px;
-  height: 48px;
+  height: 48px; */
   color: #fff;
   background-color: #f55800;
 }
@@ -294,10 +294,10 @@ button:hover/*:not(.project-button)*/{
   font-weight: 700px;
   font-size: 17px;
   line-height: 24px; */
-  display: flex;
+  /* display: flex;
   align-items: center;
   text-align: justify;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; */
   border: 1px solid #f55b00;
   background-color: #fff5e1;
   color: #F55800;
@@ -315,9 +315,9 @@ button:active/*:not(.project-button)*/{
   left: 407px;
   top: calc(50% - 48px/2 + 46.5px);
   background: #E05304; */
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   background-color: #e05304;
   border: 1px solid #f55b00;
   color: #f4f1f0;
@@ -422,6 +422,11 @@ button:active/*:not(.project-button)*/{
   color: white;
   background-color: rgba(255, 255, 255, 0.24);
 
+}
+
+.work-card > button {
+  width: 100%;
+  cursor: pointer;
 }
 
 .recent-works button/*:not(.project-button)*/{
