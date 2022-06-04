@@ -408,6 +408,7 @@ button:active {
 }
 
 .about-text > h2 {
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -417,6 +418,7 @@ button:active {
 }
 
 .about-text > p {
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
