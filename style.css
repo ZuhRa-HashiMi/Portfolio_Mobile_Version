@@ -267,12 +267,12 @@ button {
   border: none;
 }
 
-/* form button {
+form button {
   padding: 12px;
   width: 130px;
   height: 48px;
   align-self: center;
-} */
+} 
 
 button:enabled:not(.project-button){
   display: flex;
@@ -427,7 +427,6 @@ button:active:not(.project-button) {
 button {
   display: flex;
   align-items: center;
- 
   margin-top: 18px;
   width: 400px;
   background: #FF6B00;
