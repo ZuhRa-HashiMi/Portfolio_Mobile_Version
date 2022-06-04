@@ -8,7 +8,6 @@ body {
   background: black;
   width: 100%;
   margin: 0 24px 0 0;
-  
 }
 
 a {
@@ -124,7 +123,7 @@ li {
   height: 300px;
 }
 
-.recent-works{
+.recent-works {
   color: #1c1a19;
   background-color: white;
   display: grid;
@@ -133,25 +132,26 @@ li {
   grid-template-columns: 327px;
 }
 
-.recent-works h3{
+.recent-works h3 {
   text-align: center;
   border-bottom: #000 3px;
-  font-family: Crete Round;
+  font-family: 'Crete Round';
   font-size: 40px;
   font-weight: 400;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 52px;
   height: 83px;
   margin-bottom: 20px;
 }
 
-.recent-works img{
+.recent-works img {
   margin-top: 80px;
   margin-bottom: 24px;
   width: 100%;
 }
-.recent-works h4:not(.title){
+
+.recent-works h4:not(.title) {
   text-align: left;
   font-family: Crete Round, sans-serif;
   font-style: normal;
@@ -160,10 +160,11 @@ li {
   line-height: 44px;
   color: #091e42;
 }
-.recent-works p{
+
+.recent-works p {
   text-align: left;
-  font-family:'Inter';
-  font-style:normal;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -172,21 +173,22 @@ li {
 }
 
 .tech-used {
-  display: felx;
+  /* display: felx; */
   height: 40px;
   margin-bottom: 12px;
 }
+
 li {
   float: left;
 }
 
-.recent-works .css{
+.recent-works .css {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 49px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -204,7 +206,7 @@ li {
   align-items: center;
   width: 56px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   list-style: none;
   font-family: Inter, sans-serif;
   font-size: 15px;
@@ -223,7 +225,7 @@ li {
   align-items: center;
   width: 95px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   list-style: none;
   font-family: Inter, sans-serif;
   font-size: 15px;
@@ -242,7 +244,7 @@ li {
   align-items: center;
   width: 61px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -254,12 +256,12 @@ li {
   box-sizing: border-box;
 }
 
-button{
+button {
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  font-family: Inter, sans-serif;
+  font-family:'Inter, sans-serif';
   font-style: normal;
   font-weight: 700px;
   font-size: 17px;
@@ -267,12 +269,12 @@ button{
   border: none;
 }
 
-form button{
+form button {
   padding: 12px;
   width: 131px;
   height: 48px;
   align-self: center;
-} 
+}
 
 button:enabled {
   color: #fff;
@@ -282,7 +284,7 @@ button:enabled {
 button:hover {
   border: 1px solid #f55b00;
   background-color: #fff5e1;
-  color: #F55800;
+  color: #f55800;
 }
 
 button:active {
@@ -291,11 +293,12 @@ button:active {
   color: #f4f1f0;
 }
 
-.recent-works button{
+.recent-works button {
   width: 124px;
   height: 48px;
   float: left;
 }
+
 /* First-Profesional-Art-Printing-Data */
 .cards-section {
   padding-top: 30px;
@@ -304,25 +307,32 @@ button:active {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: 1fr;
 }
-.card-content{
-  height: 386px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-   rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder2.png);
-  padding: 0 16px;
-  padding-top: 84px;
-}
 
-.card-content > h4{
+
+.card-content > h4 {
   text-align: left;
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color:white;
+  color: white;
 }
 
-.card-content > p{
+.card-content {
+  height: 386px;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(assets/Img\ Placeholder2.png);
+  padding: 0 16px;
+  padding-top: 84px;
+}
+
+.card-content > p {
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -330,17 +340,18 @@ button:active {
   line-height: 24px;
   color: white;
 }
-.work-card .card-content > ul{
+
+.work-card .card-content > ul {
   display: flex;
 }
 
-.card-content .html{
+.card-content .html {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 56px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -353,13 +364,13 @@ button:active {
   background-color: rgba(255, 255, 255, 0.24);
 }
 
-.card-content .Boot{
+.card-content .Boot {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 95px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -372,13 +383,13 @@ button:active {
   background-color: rgba(255, 255, 255, 0.24);
 }
 
-.card-content .Ruby{
+.card-content .Ruby {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 61px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -389,7 +400,6 @@ button:active {
   box-sizing: border-box;
   color: white;
   background-color: rgba(255, 255, 255, 0.24);
-
 }
 
 .work-card > button {
@@ -397,13 +407,7 @@ button:active {
   cursor: pointer;
 }
 
-.recent-works button{
-  width: 124px;
-  height: 48px;
-  float: left;
-}
-
-.about-me{
+.about-me {
   padding: 120px 24px;
   background-color: #1c1a19;
   background-image: url(assets/Frame.png);
@@ -411,7 +415,8 @@ button:active {
   background-position-x: right;
   background-position-y: 280px;
 }
-.about-text > h2{
+
+.about-text > h2 {
   font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
@@ -421,33 +426,34 @@ button:active {
   letter-spacing: 0.37px;
 }
 
-.about-text >p{
-  font-family: Inter;
+.about-text > p {
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   margin: 24px 0;
   width: 327px;
-  height: 148px; 
+  height: 148px;
 }
+
 .about-text > button {
   width: 161px;
   height: 48px;
   top: 395px;
   left: 24px;
-
 }
 
-.about-text > hr{
+.about-text > hr {
   padding-top: 100px;
   border-top: none;
   border-left: none;
   border-right: none;
   border-color: white;
 }
-.about-me .skill-set{
+
+.about-me .skill-set {
   padding-top: 100px;
   color: white;
   text-align: center;
@@ -463,6 +469,7 @@ button:active {
 .skill-set li {
   padding: 10px 0;
 }
+
 .languages {
   color: white;
   font-family: 'InaiMathi';
@@ -479,29 +486,29 @@ button:active {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-
 }
 
 .skills {
   color: white;
-  font-family:'Inter';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
 }
+
 .skill-item {
-  font-family: Inter, sans-serif;
+  font-family:'Inter, sans-serif';
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 43px;
   list-style: none;
 }
-.vector{
+
+.vector {
   margin: 1px;
   width: 18px;
   height: 18px;
   border-radius: 150px;
 }
-
