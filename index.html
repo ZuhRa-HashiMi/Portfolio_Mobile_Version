@@ -238,14 +238,17 @@
               contact-me
              ================ -->
     <section class="contact-me">
+        <div class="contact-info">
             <h6 class="first-par">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </h6>
-           
-         <div><form id="form" action="https://formspree.io/f/moqrjalz" method="post">
+    
+          <form id="form" action="https://formspree.io/f/moqrjalz" method="post">
                 <input name="fullname" type="text" placeholder="Full name" minlength="5"
                 maxlength="50"
                 aria-label=" full name"
                 required>
+                <hr class="hr">
+        
                 <input
                     name="email"
                     id="email"
@@ -254,6 +257,9 @@
                     placeholder="Email address"
                     aria-label=" Email Address"
                     required>
+                    <hr class="hr">
+
+
                     <textarea
                     name="message"
                     id="message"
@@ -266,10 +272,10 @@
                   ></textarea>
                   <button id="submit" type="submit">Get in touch</button>
             </form>
-            <hr class="hr">
             </div>
 
     </section>
+       
 
 
 </body>
