@@ -524,3 +524,14 @@ button:active {
   color: #172b4d;
 
 }
+
+.hr{
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: black
+
+
+}
