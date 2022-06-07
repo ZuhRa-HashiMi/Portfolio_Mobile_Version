@@ -121,7 +121,7 @@ li {
   padding-left: 25px;
   display: flex;
   justify-content: space-between;
-  height: 300px;
+  height: 200px;
 }
 
 .recent-works {
@@ -509,7 +509,7 @@ button:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #E5E5E5;
+  background: white;
   padding: 120px 24px;
 }
 
@@ -535,20 +535,13 @@ button:active {
   padding: 8px;
 }
 
-.hr{
- 
-  background: #DBD8D7
-}
-
-
-
  input{
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   height: 48px;
   border-style: none; 
-  background: #E5E5E5;
+  background: white;
   padding-left: 5px
  }
 
@@ -560,5 +553,31 @@ button:active {
   border-style: none;
   padding-left: 10px;
   height: 114px;
-  background: #E5E5E5;
+  background:white;
 }
+
+footer {
+  border-top: 1px solid #dfe1e6;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
+
+.footer .social-icon ul {
+  display: flex;
+}
+.footer .social-icon ul li {
+  list-style-type: none;
+}
+
+.shape {
+  display: flex;
+  justify-content: center;
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+}
+
