@@ -505,7 +505,7 @@ button:active {
   border-radius: 150px;
 }
 
-.contact-me{
+.contact-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -513,8 +513,7 @@ button:active {
   padding: 120px 24px;
 }
 
-
- .contact-info >h6{
+.contact-info > h6 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -524,10 +523,9 @@ button:active {
   width: 327px;
   height: 216px;
   color: #172b4d;
+}
 
- }
-   
- form{
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -535,17 +533,17 @@ button:active {
   padding: 8px;
 }
 
- input{
+input {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   height: 48px;
-  border-style: none; 
+  border-style: none;
   background: white;
-  padding-left: 5px
- }
+  padding-left: 5px;
+}
 
- textarea {
+textarea {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -553,7 +551,7 @@ button:active {
   border-style: none;
   padding-left: 10px;
   height: 114px;
-  background:white;
+  background: white;
 }
 
 footer {
@@ -567,6 +565,7 @@ footer {
 .footer .social-icon ul {
   display: flex;
 }
+
 .footer .social-icon ul li {
   list-style-type: none;
 }
@@ -581,4 +580,3 @@ footer {
   border-radius: 10px;
   margin-left: 48px;
 }
-
