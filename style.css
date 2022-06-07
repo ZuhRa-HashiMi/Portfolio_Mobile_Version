@@ -507,12 +507,14 @@ button:active {
 
 .contact-me{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background: #E5E5E5;
   padding: 120px 24px;
 }
 
-.contact-me h6{
+
+ .contact-info >h6{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -523,15 +525,40 @@ button:active {
   height: 216px;
   color: #172b4d;
 
+ }
+   
+ form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 8px;
 }
 
 .hr{
-  position: absolute;
-  height: 1px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  background: black
+ 
+  background: #DBD8D7
+}
 
 
+
+ input{
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  height: 48px;
+  border-style: none; 
+  background: #E5E5E5;
+  padding-left: 5px
+ }
+
+ textarea {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  border-style: none;
+  padding-left: 10px;
+  height: 114px;
+  background: #E5E5E5;
 }
