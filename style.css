@@ -121,7 +121,7 @@ li {
   padding-left: 25px;
   display: flex;
   justify-content: space-between;
-  height: 200px;
+  height: 70px;
 }
 
 .recent-works {
@@ -149,7 +149,6 @@ li {
   margin-bottom: 24px;
   width: 100%;
 }
-/* this is the recent-works img class */
 
 .card-content > h4 {
   text-align: left;
@@ -580,5 +579,6 @@ footer {
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
+  margin-left: 48px;
 }
 
