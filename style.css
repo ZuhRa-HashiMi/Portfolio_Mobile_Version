@@ -110,6 +110,8 @@ nav {
   display: flex;
   width: 150px;
   height: 312.03px;
+  justify-content: space-between;
+  height: 55px;
 }
 
 .desktop-b-img-1 {
@@ -857,4 +859,78 @@ nav {
   }
 }
 
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  padding: 120px 24px;
+}
 
+.contact-info > h6 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  width: 327px;
+  height: 216px;
+  color: #172b4d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 8px;
+}
+
+input {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  height: 48px;
+  border-style: none;
+  background: white;
+  padding-left: 5px;
+}
+
+textarea {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  border-style: none;
+  padding-left: 10px;
+  height: 114px;
+  background: white;
+}
+
+footer {
+  border-top: 1px solid #dfe1e6;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
+
+.footer .social-icon ul {
+  display: flex;
+}
+
+.footer .social-icon ul li {
+  list-style-type: none;
+}
+
+.shape {
+  display: flex;
+  justify-content: center;
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 48px;
+}
