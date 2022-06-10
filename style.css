@@ -179,7 +179,7 @@ nav {
   margin-left: 24px;
 }
 
-.project-discription {
+.discription {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   display: flex;
@@ -189,7 +189,7 @@ nav {
   margin-right: 24px;
 }
 
-.web-icons {
+.language-icone {
   list-style-type: none;
   display: flex;
   justify-items: space-between;
@@ -213,18 +213,7 @@ nav {
   border: 0;
 }
 
-.button1-text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-self: center;
-  text-align: center;
-  color: #fff;
-  margin-left: 24px;
-}
+
 
 .prokects-section2 {
   display: flex;
