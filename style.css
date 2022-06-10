@@ -9,7 +9,7 @@ body {
   margin: 0 24px 0 0;
 }
 
-.black_Screen {
+.blackpage {
   background-color: #1c1a19;
 }
 
@@ -25,8 +25,8 @@ nav {
 }
 
 .logo {
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 24px;
 }
 
 .menu {
@@ -39,7 +39,6 @@ nav {
   display: none;
 }
 
-
 .page1-content {
   width: 100%;
   display: flex;
@@ -49,7 +48,7 @@ nav {
   padding: 24px 0 24px 24px;
 }
 
-.headline {
+.my-name {
   color: #ff6b00;
   font-size: 56px;
   font-family: 'Crete Round', sans-serif;
@@ -64,7 +63,7 @@ nav {
   margin-bottom: 10px;
 }
 
-.jon-title {
+.my-position {
   width: 90%;
   font-family: 'Roboto', sans-serif;
   font-style: bold;
@@ -76,8 +75,7 @@ nav {
   margin: 10px 0 10px 0;
 }
 
-
-.job-discription {
+.discription-me {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -129,7 +127,7 @@ nav {
   border: 1px solid #ff6b00;
 }
 
-.recent-works {
+.my-projects {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -158,7 +156,7 @@ nav {
   width: 80%;
 }
 
-.women-img {
+.project-img {
   display: flex;
   align-self: center;
   margin-top: 18px;
@@ -179,7 +177,7 @@ nav {
   margin-left: 24px;
 }
 
-.discription {
+.project-discription {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   display: flex;
@@ -189,7 +187,7 @@ nav {
   margin-right: 24px;
 }
 
-.language-icone {
+.web-icons {
   list-style-type: none;
   display: flex;
   justify-items: space-between;
@@ -213,7 +211,18 @@ nav {
   border: 0;
 }
 
-
+.button1-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  color: #fff;
+  margin-left: 24px;
+}
 
 .prokects-section2 {
   display: flex;
@@ -228,7 +237,7 @@ nav {
   flex-direction: column;
   align-self: center;
   margin-top: 50px;
-  background-image: url(css/image/projects_imges/Placeholder1.png);
+  background-image: url(assets/Placeholder1.png);
   background-color: #ccc;
   padding: 24px 0 24px 0;
 }
@@ -663,7 +672,7 @@ nav {
   }
 
   .page2:hover {
-    background-image: url(css/image/projects_imges/hover.png);
+    background-image: url(assets/hover.png);
     padding-top: 340px;
   }
 
