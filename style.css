@@ -63,17 +63,7 @@ nav {
   margin-bottom: 10px;
 }
 
-.job {
-  width: 90%;
-  font-family: 'Roboto', sans-serif;
-  font-style: bold;
-  font-size: 24px;
-  text-align: left;
-  color: #fff5e1;
-  display: flex;
-  align-items: flex-end;
-  margin: 10px 0 10px 0;
-}
+
 
 .discription-me {
   font-family: 'Poppins', sans-serif;
