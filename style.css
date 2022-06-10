@@ -48,7 +48,7 @@ nav {
   padding: 24px 0 24px 24px;
 }
 
-.my-name {
+.intro {
   color: #ff6b00;
   font-size: 56px;
   font-family: 'Crete Round', sans-serif;
@@ -63,7 +63,7 @@ nav {
   margin-bottom: 10px;
 }
 
-.my-position {
+.job {
   width: 90%;
   font-family: 'Roboto', sans-serif;
   font-style: bold;
