@@ -511,7 +511,12 @@ nav {
     animation-duration: 0.8s;
     transition: background 0.8s ease-in-out, color 0.8s ease-in-out;
   }
-  
+
+  .animate-btn:focus {
+    background: #e05304;
+    color: #f4f1f0;
+  }
+
   .animate-btn:hover {
     background: #fff5f1;
     border: 1px solid #f55800;
