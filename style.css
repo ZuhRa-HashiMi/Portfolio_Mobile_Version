@@ -9,7 +9,7 @@ body {
   margin: 0 24px 0 0;
 }
 
-.black_page {
+.black_Screen {
   background-color: #1c1a19;
 }
 
@@ -39,7 +39,8 @@ nav {
   display: none;
 }
 
-.page1 {
+
+.page1-content {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -48,7 +49,7 @@ nav {
   padding: 24px 0 24px 24px;
 }
 
-.intro {
+.headline {
   color: #ff6b00;
   font-size: 56px;
   font-family: 'Crete Round', sans-serif;
@@ -63,9 +64,20 @@ nav {
   margin-bottom: 10px;
 }
 
+.jon-title {
+  width: 90%;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #fff5e1;
+  display: flex;
+  align-items: flex-end;
+  margin: 10px 0 10px 0;
+}
 
 
-.discription-me {
+.job-discription {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
