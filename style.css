@@ -9,7 +9,7 @@ body {
   margin: 0 24px 0 0;
 }
 
-.blackpage {
+.black_page {
   background-color: #1c1a19;
 }
 
@@ -39,7 +39,7 @@ nav {
   display: none;
 }
 
-.page1-content {
+.page1 {
   width: 100%;
   display: flex;
   flex-direction: column;
